@@ -1,5 +1,4 @@
-# LinuxRice
-Repo for my personal LinuxRices and Dotfiles
+# LinuxRice - "Purple Embark"
 
 ArcoLinux_Qtile_08/2023 (Branch): 2nd rice from Aug 2023 ...
 
