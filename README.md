@@ -17,7 +17,7 @@ Zathura file-viewer theme:
 - https://github.com/dracula/zathura
 
 Screenshots to impress the imaginary people who care:
-!(screenshot_02.png)
+![pic: alacritty terminal and neofetch](https://github.com/SanktAfra-notsoofficial/LinuxRice/blob/LinuxMint_i3_10/2024/screenshot_02.png)
 
 running LaTeX & zathura, update with SHIFT+U:
-![plot](https://github.com/SanktAfra-notsoofficial/LinuxRice/blob/LinuxMint_i3_10/2024/screenshot_01.png)
+![pic: LaTeX and zathura running](https://github.com/SanktAfra-notsoofficial/LinuxRice/blob/LinuxMint_i3_10/2024/screenshot_01.png)
