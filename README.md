@@ -2,7 +2,7 @@
 
 Theme: Cat
 
-NeoVim config tutorial:
+NeoVim tutorial:
 - YT: typecraft: https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn
 
 For nvim to access NeoVim, add the following to ~/.bashrc:
