@@ -15,3 +15,9 @@ alias nvim='XDG_CACHE_HOME=/tmp nvim'
 
 Zathura file-viewer theme:
 - https://github.com/dracula/zathura
+
+Screenshots to impress the imaginary people who care:
+!(screenshot_02.png)
+
+running LaTeX & zathura, update with SHIFT+U:
+!(screenshot_01.png)
