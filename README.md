@@ -5,6 +5,11 @@ Theme: Cat
 NeoVim tutorial:
 - YT: typecraft: https://www.youtube.com/watch?v=zHTeCSVAFNY&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn
 
+Plugin Manager: Lazy
+Language Server Protocols (LSPs) Manager: Mason
+
+LaTeX: texlab, vimtex (https://github.com/lervag/vimtex)
+
 For nvim to access NeoVim, add the following to ~/.bashrc:
 alias nvim='XDG_CACHE_HOME=/tmp nvim'
 
