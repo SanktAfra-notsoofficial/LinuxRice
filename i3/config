@@ -221,6 +221,7 @@ bar {
 
 bindsym $mod+shift+x exec i3lock --color=1e1c31
 bindsym $mod+shift+f exec firefox
+bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
 
 #---------------
 # background-pic
