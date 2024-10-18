@@ -20,4 +20,4 @@ Screenshots to impress the imaginary people who care:
 !(screenshot_02.png)
 
 running LaTeX & zathura, update with SHIFT+U:
-!(https://github.com/SanktAfra-notsoofficial/LinuxRice/blob/LinuxMint_i3_10/2024/screenshot_01.png)
+![plot](https://github.com/SanktAfra-notsoofficial/LinuxRice/blob/LinuxMint_i3_10/2024/screenshot_01.png)
