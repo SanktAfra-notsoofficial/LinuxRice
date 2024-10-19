@@ -1,0 +1,77 @@
+\input{~/Documents/BeLL/LaTeX/BeLL_preamble}
+
+\begin{document}
+\begin{align*}
+\text{MOD + Return} \quad &\longrightarrow \quad\text{open alacritty-terminal} \\
+\text{MOD + q} \quad&\longrightarrow \quad\text{quit program} \\
+\text{MOD + r} \quad&\longrightarrow \quad\text{enter resize mode (use arrow keys)} \\
+\text{MOD + SHIFT + arrow keys} \quad&\longrightarrow \quad\text{mv window on workspace} \\
+\text{MOD + Num} \quad&\longrightarrow \quad\text{go to workspace} \\
+\text{MOD + SHIFT + Num} \quad&\longrightarrow \quad\text{mv win to workspace} \\
+\text{MOD + h} \quad&\longrightarrow \quad\text{next win horizontal mode} \\
+\text{MOD + v} \quad&\longrightarrow \quad\text{next win vertical mode} \\
+\text{MOD + SHIFT + f} \quad&\longrightarrow \quad\text{open firefox} \\
+\text{MOD + SHIFT + x} \quad&\longrightarrow \quad\text{lock screen} \\
+\text{MOD + SHIFT + r} \quad&\longrightarrow \quad\text{reload i3} \\[1.0em]
+\hline \\[-0.6em]
+\text{cd}\quad&\longrightarrow\quad\text{enter directory} \\
+\text{ls (-a)}\quad&\longrightarrow\quad\text{show files \& subfolders in dir (also hidden .[...])} \\
+\text{pwd}\quad&\longrightarrow\quad\text{show current path} \\
+\text{mkdir [...]}\quad&\longrightarrow\quad\text{create folder} \\
+\text{touch [...]}\quad&\longrightarrow\quad\text{create file} \\
+\text{mv (-a) [...] [...]}\quad&\longrightarrow\quad\text{move / rename file (folder)} \\
+\text{cp [...] [...]}\quad&\longrightarrow\quad\text{copy file} \\
+\text{rm (-rf) [...]}\quad&\longrightarrow\quad\text{remove file / folder (permanently)} \\
+\text{zip -r (-e) [zip-file name] [folder / file]}\quad&\longrightarrow\quad\text{zip file / folder (with password)} \\
+\text{ln -s}\quad&\longrightarrow\quad\text{create shell link} \\[1.0em]
+\hline \\[-0.6em]
+\text{i}\quad&\longrightarrow\quad\text{insert}\\
+\text{:q(!)}\quad&\longrightarrow\quad\text{quit without saving}\\
+\text{:wq}\quad&\longrightarrow\quad\text{write quit}\\
+\text{:w [...]}\quad&\longrightarrow\quad\text{write to file}\\
+\text{:r [file]}\quad&\longrightarrow\quad\text{pasting file content to current line}\\
+\text{:\$}\quad&\longrightarrow\quad\text{mv to end of file}\\
+\text{\$}\quad&\longrightarrow\quad\text{mv to end of line}\\
+\text{e}\quad&\longrightarrow\quad\text{skip words in line}\\
+\text{gcc}\quad&\longrightarrow\quad\text{comment line}\\
+\text{x}\quad&\longrightarrow\quad\text{delete under cursor}\\
+\text{dw}\quad&\longrightarrow\quad\text{delete word (cursor has to be at beginning ot w)}\\
+\text{d\$}\quad&\longrightarrow\quad\text{delet rest of line from current pos}\\
+\text{dd}\quad&\longrightarrow\quad\text{delete line}\\
+\text{v}\quad&\longrightarrow\quad\text{select mode}\\
+\text{y}\quad&\longrightarrow\quad\text{copy}\\
+\text{p}\quad&\longrightarrow\quad\text{paste}\\
+\text{r[\_]}\quad&\longrightarrow\quad\text{replace symbol under cursor with [\_]}\\
+\text{R[...]}\quad&\longrightarrow\quad\text{replace w under cursor}\\
+\text{u}\quad&\longrightarrow\quad\text{undo}\\
+\text{/[...]}\quad&\longrightarrow\quad\text{search file (use n or N to skip through)}\\
+\text{:\%s/[old]/[new]/g}\quad&\longrightarrow\quad\text{replace throughout fiel}\\
+\text{:!}\quad&\longrightarrow\quad\text{execute shell command} \\
+\text{:Tutor}\quad&\longrightarrow\quad\text{vim tutorial}
+\end{align*}
+
+\newpage
+
+Language-Server-Protocol (LSP) Manager: Mason
+
+Plugin Manager: Lazy
+
+\subparagraph*{nvim/lspconfig:}
+
+\begin{align*}
+\text{SHIFT + i}\quad&\longrightarrow\quad\text{extra information}\\
+\text{gd}\quad&\longrightarrow\quad\text{go to def}\\
+\text{SPACE + ca}\quad&\longrightarrow\quad\text{code actions}\\
+\end{align*}
+
+\subparagraph*{nvim/telescope:}
+
+\begin{align*}
+\text{SPACE + ff}\quad&\longrightarrow\quad\text{find file}\\
+\text{SPACE + fg}\quad&\longrightarrow\quad\text{live grep from file}\\
+\end{align*}
+
+\subparagraph*{firefox:}
+$\text{STRG + l}\quad\longrightarrow\quad\text{open search bar}$
+
+\end{document}
